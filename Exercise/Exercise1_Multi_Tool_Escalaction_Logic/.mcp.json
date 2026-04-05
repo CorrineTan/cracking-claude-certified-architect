@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "customer-support-tools": {
+      "command": "python",
+      "args": ["src/mcp_server.py"],
+      "env": {
+        "SIMULATE_TRANSIENT_ERRORS": "${SIMULATE_TRANSIENT_ERRORS:-0}"
+      }
+    }
+  }
+}
