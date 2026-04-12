@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "project-workflow-tools": {
+      "command": "python",
+      "args": ["src/mcp_server.py"],
+      "env": {
+        "PROJECT_API_TOKEN": "${PROJECT_API_TOKEN}"
+      }
+    }
+  }
+}
