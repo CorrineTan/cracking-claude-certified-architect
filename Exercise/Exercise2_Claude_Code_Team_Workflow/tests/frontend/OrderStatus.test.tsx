@@ -7,8 +7,8 @@ import { OrderStatus } from '../../src/frontend/components/OrderStatus';
 
 describe('OrderStatus', () => {
   it('renders loading state initially', () => {
-    render(<OrderStatus orderId="ORD-001" />);
-    expect(screen.getByClassName('loading-spinner')).toBeInTheDocument();
+    const { container } = render(<OrderStatus orderId="ORD-001" />);
+    expect(container.querySelector('.loading-spinner')).toBeInTheDocument();
   });
 
   it('displays order details after loading', async () => {
