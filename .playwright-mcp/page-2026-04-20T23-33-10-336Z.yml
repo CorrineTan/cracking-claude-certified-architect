@@ -1,0 +1,188 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - complementary [ref=e3]:
+      - generic [ref=e4]:
+        - link "Claude Certified Architect Foundations · Study Guide" [ref=e5] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e6]: Claude Certified Architect
+          - generic [ref=e7]: Foundations · Study Guide
+        - navigation [ref=e8]:
+          - generic [ref=e9]:
+            - generic [ref=e10]: Overview
+            - list [ref=e11]:
+              - listitem [ref=e12]:
+                - link "Home" [ref=e13] [cursor=pointer]:
+                  - /url: /
+                  - generic [ref=e14]: Home
+              - listitem [ref=e15]:
+                - link "Study plan" [ref=e16] [cursor=pointer]:
+                  - /url: /study-plan
+                  - generic [ref=e17]: Study plan
+              - listitem [ref=e18]:
+                - link "My notes" [ref=e19] [cursor=pointer]:
+                  - /url: /notes
+                  - generic [ref=e20]: My notes
+              - listitem [ref=e21]:
+                - link "Exam recommendations" [ref=e22] [cursor=pointer]:
+                  - /url: /recommendations
+                  - generic [ref=e23]: Exam recommendations
+              - listitem [ref=e24]:
+                - link "Appendix" [ref=e25] [cursor=pointer]:
+                  - /url: /appendix
+                  - generic [ref=e26]: Appendix
+          - generic [ref=e27]:
+            - generic [ref=e28]: Domains
+            - list [ref=e29]:
+              - listitem [ref=e30]:
+                - link "All domains" [ref=e31] [cursor=pointer]:
+                  - /url: /domains
+                  - generic [ref=e32]: All domains
+              - listitem [ref=e33]:
+                - link "1. Agentic Architecture & Orchestration 27%" [ref=e34] [cursor=pointer]:
+                  - /url: /domains/agentic-architecture
+                  - generic [ref=e35]: 1. Agentic Architecture & Orchestration
+                  - generic [ref=e36]: 27%
+              - listitem [ref=e37]:
+                - link "2. Tool Design & MCP Integration 18%" [ref=e38] [cursor=pointer]:
+                  - /url: /domains/tool-design-mcp
+                  - generic [ref=e39]: 2. Tool Design & MCP Integration
+                  - generic [ref=e40]: 18%
+              - listitem [ref=e41]:
+                - link "3. Claude Code Configuration & Workflows 20%" [ref=e42] [cursor=pointer]:
+                  - /url: /domains/claude-code-workflows
+                  - generic [ref=e43]: 3. Claude Code Configuration & Workflows
+                  - generic [ref=e44]: 20%
+              - listitem [ref=e45]:
+                - link "4. Prompt Engineering & Structured Output 20%" [ref=e46] [cursor=pointer]:
+                  - /url: /domains/prompt-engineering
+                  - generic [ref=e47]: 4. Prompt Engineering & Structured Output
+                  - generic [ref=e48]: 20%
+              - listitem [ref=e49]:
+                - link "5. Context Management & Reliability 15%" [ref=e50] [cursor=pointer]:
+                  - /url: /domains/context-reliability
+                  - generic [ref=e51]: 5. Context Management & Reliability
+                  - generic [ref=e52]: 15%
+          - generic [ref=e53]:
+            - generic [ref=e54]: Scenarios
+            - list [ref=e55]:
+              - listitem [ref=e56]:
+                - link "All scenarios" [ref=e57] [cursor=pointer]:
+                  - /url: /scenarios
+                  - generic [ref=e58]: All scenarios
+              - listitem [ref=e59]:
+                - link "1. Customer Support Resolution Agent" [ref=e60] [cursor=pointer]:
+                  - /url: /scenarios/customer-support
+                  - generic [ref=e61]: 1. Customer Support Resolution Agent
+              - listitem [ref=e62]:
+                - link "2. Code Generation with Claude Code" [ref=e63] [cursor=pointer]:
+                  - /url: /scenarios/code-generation
+                  - generic [ref=e64]: 2. Code Generation with Claude Code
+              - listitem [ref=e65]:
+                - link "3. Multi-Agent Research System" [ref=e66] [cursor=pointer]:
+                  - /url: /scenarios/multi-agent-research
+                  - generic [ref=e67]: 3. Multi-Agent Research System
+              - listitem [ref=e68]:
+                - link "4. Developer Productivity with Claude" [ref=e69] [cursor=pointer]:
+                  - /url: /scenarios/developer-productivity
+                  - generic [ref=e70]: 4. Developer Productivity with Claude
+              - listitem [ref=e71]:
+                - link "5. Claude Code for Continuous Integration" [ref=e72] [cursor=pointer]:
+                  - /url: /scenarios/ci-cd
+                  - generic [ref=e73]: 5. Claude Code for Continuous Integration
+              - listitem [ref=e74]:
+                - link "6. Structured Data Extraction" [ref=e75] [cursor=pointer]:
+                  - /url: /scenarios/structured-extraction
+                  - generic [ref=e76]: 6. Structured Data Extraction
+          - generic [ref=e77]:
+            - generic [ref=e78]: Practice Questions
+            - list [ref=e79]:
+              - listitem [ref=e80]:
+                - link "All questions" [ref=e81] [cursor=pointer]:
+                  - /url: /questions
+                  - generic [ref=e82]: All questions
+              - listitem [ref=e83]:
+                - link "Customer Support Resolution Agent" [ref=e84] [cursor=pointer]:
+                  - /url: /questions/customer-support
+                  - generic [ref=e85]: Customer Support Resolution Agent
+              - listitem [ref=e86]:
+                - link "Code Generation with Claude Code" [ref=e87] [cursor=pointer]:
+                  - /url: /questions/code-generation
+                  - generic [ref=e88]: Code Generation with Claude Code
+              - listitem [ref=e89]:
+                - link "Multi-Agent Research System" [ref=e90] [cursor=pointer]:
+                  - /url: /questions/multi-agent-research
+                  - generic [ref=e91]: Multi-Agent Research System
+              - listitem [ref=e92]:
+                - link "Developer Productivity with Claude" [ref=e93] [cursor=pointer]:
+                  - /url: /questions/developer-productivity
+                  - generic [ref=e94]: Developer Productivity with Claude
+              - listitem [ref=e95]:
+                - link "Claude Code for Continuous Integration" [ref=e96] [cursor=pointer]:
+                  - /url: /questions/ci-cd
+                  - generic [ref=e97]: Claude Code for Continuous Integration
+              - listitem [ref=e98]:
+                - link "Structured Data Extraction" [ref=e99] [cursor=pointer]:
+                  - /url: /questions/structured-extraction
+                  - generic [ref=e100]: Structured Data Extraction
+          - generic [ref=e101]:
+            - generic [ref=e102]: Exercises
+            - list [ref=e103]:
+              - listitem [ref=e104]:
+                - link "All exercises" [ref=e105] [cursor=pointer]:
+                  - /url: /exercises
+                  - generic [ref=e106]: All exercises
+              - listitem [ref=e107]:
+                - link "1. Build a Multi-Tool Agent with Escalation Logic ✓" [ref=e108] [cursor=pointer]:
+                  - /url: /exercises/multi-tool-escalation
+                  - generic [ref=e109]: 1. Build a Multi-Tool Agent with Escalation Logic
+                  - generic [ref=e110]: ✓
+              - listitem [ref=e111]:
+                - link "2. Configure Claude Code for a Team Development Workflow ✓" [ref=e112] [cursor=pointer]:
+                  - /url: /exercises/team-workflow
+                  - generic [ref=e113]: 2. Configure Claude Code for a Team Development Workflow
+                  - generic [ref=e114]: ✓
+              - listitem [ref=e115]:
+                - link "3. Build a Structured Data Extraction Pipeline" [ref=e116] [cursor=pointer]:
+                  - /url: /exercises/structured-extraction
+                  - generic [ref=e117]: 3. Build a Structured Data Extraction Pipeline
+              - listitem [ref=e118]:
+                - link "4. Design and Debug a Multi-Agent Research Pipeline" [ref=e119] [cursor=pointer]:
+                  - /url: /exercises/multi-agent-research
+                  - generic [ref=e120]: 4. Design and Debug a Multi-Agent Research Pipeline
+    - main [ref=e121]:
+      - generic [ref=e122]:
+        - generic [ref=e123]:
+          - navigation [ref=e124]:
+            - generic [ref=e125]:
+              - link "Home" [ref=e126] [cursor=pointer]:
+                - /url: /
+              - generic [ref=e127]: /
+            - generic [ref=e129]: My notes
+          - generic [ref=e131]:
+            - heading "My notes" [level=1] [ref=e132]
+            - paragraph [ref=e133]: Every textarea you've filled in, aggregated here. Notes live only in this browser — export them if you want a backup or want to move devices.
+        - generic [ref=e134]:
+          - generic [ref=e135]:
+            - generic [ref=e136]:
+              - generic [ref=e137]:
+                - generic [ref=e138]: Notes written
+                - generic [ref=e139]: "0"
+              - generic [ref=e140]:
+                - generic [ref=e141]: Characters
+                - generic [ref=e142]: "0"
+              - generic [ref=e143]:
+                - generic [ref=e144]: Plan items checked
+                - generic [ref=e145]: "0"
+            - generic [ref=e146]:
+              - button "Export JSON" [ref=e147] [cursor=pointer]
+              - button "Import JSON" [ref=e148] [cursor=pointer]
+              - button "Clear all" [ref=e149] [cursor=pointer]
+          - generic [ref=e150]:
+            - generic [ref=e151]: No notes yet
+            - paragraph [ref=e152]: As you work through domain task statements, scenarios, exercises, and practice questions, you'll find a “My notes” textarea on each. Anything you type there shows up here automatically.
+            - generic [ref=e153]:
+              - link "Open study plan →" [ref=e154] [cursor=pointer]:
+                - /url: /study-plan
+              - link "Start Domain 1" [ref=e155] [cursor=pointer]:
+                - /url: /domains/agentic-architecture
+  - alert [ref=e156]

@@ -2,11 +2,16 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { TopBar } from "@/components/TopBar";
 import { DomainBadge } from "@/components/DomainBadge";
-import { QuestionCard } from "@/components/QuestionCard";
+import { QuestionDeck } from "@/components/QuestionDeck";
 import { PrevNext } from "@/components/PrevNext";
+import { ScenarioDeepDiveBlock } from "@/components/DeepDiveBlock";
+import { NotesPanel } from "@/components/NotesPanel";
+import { ExerciseCode } from "@/components/ExerciseCode";
 import { SCENARIOS, getScenario } from "@/lib/scenarios";
 import { getQuestionsForScenario } from "@/lib/questions";
 import { getDomainById } from "@/lib/domains";
+import { EXERCISES } from "@/lib/exercises";
+import { EXERCISE_CODE } from "@/lib/exercise-code";
 import type { ScenarioSlug } from "@/lib/types";
 
 export function generateStaticParams() {
@@ -23,12 +28,30 @@ export default async function ScenarioPage({
   if (!scenario) notFound();
 
   const questions = getQuestionsForScenario(scenario.slug);
-  const pdfQs = questions.filter((q) => q.source === "pdf");
-  const genQs = questions.filter((q) => q.source === "generated");
 
   const idx = SCENARIOS.findIndex((s) => s.slug === scenario.slug);
   const prev = idx > 0 ? SCENARIOS[idx - 1] : undefined;
   const next = idx < SCENARIOS.length - 1 ? SCENARIOS[idx + 1] : undefined;
+
+  // Pick the runnable exercise that best overlaps this scenario's primary
+  // domains. We prefer ones with code snapshots so we can render real source.
+  const relatedExercise = (() => {
+    const candidates = EXERCISES.filter(
+      (e) => e.status === "complete" && EXERCISE_CODE[e.slug],
+    );
+    let best = null as null | (typeof candidates)[number];
+    let bestOverlap = 0;
+    for (const e of candidates) {
+      const overlap = e.domains.filter((d) =>
+        scenario.primaryDomains.includes(d),
+      ).length;
+      if (overlap > bestOverlap) {
+        best = e;
+        bestOverlap = overlap;
+      }
+    }
+    return best;
+  })();
 
   return (
     <div>
@@ -61,6 +84,13 @@ export default async function ScenarioPage({
           )}
         </section>
 
+        {scenario.deepDive && (
+          <section>
+            <h2 className="mb-3 text-xl font-semibold text-ink-900">Deep dive</h2>
+            <ScenarioDeepDiveBlock deepDive={scenario.deepDive} />
+          </section>
+        )}
+
         <section>
           <h2 className="mb-3 text-xl font-semibold text-ink-900">Related task statements</h2>
           <div className="flex flex-wrap gap-2">
@@ -82,31 +112,61 @@ export default async function ScenarioPage({
           </div>
         </section>
 
-        {pdfQs.length > 0 && (
+        {relatedExercise && (
           <section>
-            <h2 className="mb-4 text-xl font-semibold text-ink-900">
-              Sample questions from exam guide · {pdfQs.length}
+            <h2 className="mb-1 text-xl font-semibold text-clay-900">
+              Related exercise — with source code
             </h2>
-            <div className="space-y-4">
-              {pdfQs.map((q) => (
-                <QuestionCard key={q.id} question={q} />
-              ))}
+            <p className="mb-4 text-sm text-clay-600">
+              The runnable reference project for this scenario.{" "}
+              <Link
+                href={`/exercises/${relatedExercise.slug}`}
+                className="prose-link"
+              >
+                Open the full exercise →
+              </Link>
+            </p>
+            <div className="rounded-2xl border border-ember-200 bg-ember-50/40 p-1.5">
+              <div className="rounded-xl bg-white p-5 sm:p-6">
+                <div className="mb-4 flex items-center gap-3">
+                  <span className="font-mono text-xs uppercase tracking-wider text-ember-700">
+                    Exercise {relatedExercise.number}
+                  </span>
+                  <span className="font-semibold text-clay-900">
+                    {relatedExercise.title}
+                  </span>
+                </div>
+                <ExerciseCode
+                  exerciseSlug={relatedExercise.slug}
+                  steps={relatedExercise.steps}
+                />
+              </div>
             </div>
           </section>
         )}
 
-        {genQs.length > 0 && (
+        {questions.length > 0 && (
           <section>
-            <h2 className="mb-4 text-xl font-semibold text-ink-900">
-              Additional practice · {genQs.length}
+            <h2 className="mb-2 text-xl font-semibold text-clay-900">
+              Practice · {questions.length} questions
             </h2>
-            <div className="space-y-4">
-              {genQs.map((q) => (
-                <QuestionCard key={q.id} question={q} />
-              ))}
-            </div>
+            <p className="mb-4 text-sm text-clay-600">
+              One at a time. Use ← → keys to navigate.
+            </p>
+            <QuestionDeck
+              questions={questions}
+              storageKey={`scenario-page:${scenario.slug}`}
+            />
           </section>
         )}
+
+        <section>
+          <h2 className="mb-3 text-xl font-semibold text-ink-900">Notes for this scenario</h2>
+          <NotesPanel
+            storageKey={`scenario-${scenario.slug}`}
+            placeholder="How does this scenario map to tasks I already know? What would trip me up on test day?"
+          />
+        </section>
 
         <PrevNext
           prev={

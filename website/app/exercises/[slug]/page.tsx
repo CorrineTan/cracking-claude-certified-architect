@@ -2,7 +2,10 @@ import { notFound } from "next/navigation";
 import { TopBar } from "@/components/TopBar";
 import { DomainBadge } from "@/components/DomainBadge";
 import { PrevNext } from "@/components/PrevNext";
+import { NotesPanel } from "@/components/NotesPanel";
+import { ExerciseCode } from "@/components/ExerciseCode";
 import { EXERCISES } from "@/lib/exercises";
+import { EXERCISE_CODE } from "@/lib/exercise-code";
 import type { ExerciseSlug } from "@/lib/types";
 
 export function generateStaticParams() {
@@ -69,20 +72,22 @@ export default async function ExercisePage({
         </section>
 
         <section>
-          <h2 className="mb-4 text-xl font-semibold text-ink-900">Steps</h2>
-          <ol className="space-y-3">
-            {exercise.steps.map((step, i) => (
-              <li
-                key={i}
-                className="flex gap-4 rounded-xl border border-ink-200 bg-white p-5"
-              >
-                <span className="flex size-7 shrink-0 items-center justify-center rounded-full bg-indigo-50 font-mono text-sm font-semibold text-indigo-700">
-                  {i + 1}
-                </span>
-                <p className="text-sm leading-relaxed text-ink-700">{step}</p>
-              </li>
-            ))}
-          </ol>
+          <h2 className="mb-4 text-xl font-semibold text-clay-900">
+            Steps {EXERCISE_CODE[exercise.slug] && (
+              <span className="ml-2 rounded-full border border-ember-200 bg-ember-50 px-2 py-0.5 align-middle font-mono text-[10px] uppercase tracking-wider text-ember-700">
+                with source code
+              </span>
+            )}
+          </h2>
+          <ExerciseCode exerciseSlug={exercise.slug} steps={exercise.steps} />
+        </section>
+
+        <section>
+          <h2 className="mb-3 text-xl font-semibold text-ink-900">Notes for this exercise</h2>
+          <NotesPanel
+            storageKey={`exercise-${exercise.slug}`}
+            placeholder="What did I learn running this? Which files clarified which task statement?"
+          />
         </section>
 
         <PrevNext

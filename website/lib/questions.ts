@@ -1,6 +1,7 @@
 import type { Question, ScenarioSlug } from "./types";
+import { IMPORTED_QUESTIONS } from "./questions-imported";
 
-export const QUESTIONS: Question[] = [
+export const PDF_QUESTIONS: Question[] = [
   // ─────────────────────────────────────────────────────────────
   // Customer Support — PDF Q1-3
   // ─────────────────────────────────────────────────────────────
@@ -933,10 +934,18 @@ export const QUESTIONS: Question[] = [
   },
 ];
 
+export const QUESTIONS: Question[] = [...PDF_QUESTIONS, ...IMPORTED_QUESTIONS];
+
 export function getQuestionsForScenario(slug: ScenarioSlug): Question[] {
   return QUESTIONS.filter((q) => q.scenario === slug);
 }
 
 export function getQuestionsForDomain(domainId: string): Question[] {
   return QUESTIONS.filter((q) => q.domain === domainId);
+}
+
+export function getQuestionsBySource(
+  source: Question["source"],
+): Question[] {
+  return QUESTIONS.filter((q) => q.source === source);
 }

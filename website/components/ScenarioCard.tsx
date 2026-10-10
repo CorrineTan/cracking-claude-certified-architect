@@ -15,7 +15,7 @@ export function ScenarioCard({ scenario }: Props) {
       <div className="mb-2 flex items-baseline gap-2 text-xs text-ink-500">
         <span className="font-mono font-semibold">Scenario {scenario.number}</span>
       </div>
-      <h3 className="mb-2 text-lg font-semibold text-ink-900 group-hover:text-indigo-700">
+      <h3 className="mb-2 font-serif text-xl leading-snug text-ink-900 group-hover:text-ember-700">
         {scenario.title}
       </h3>
       <p className="mb-3 line-clamp-3 text-sm leading-relaxed text-ink-600">

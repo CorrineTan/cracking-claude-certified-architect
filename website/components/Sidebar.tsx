@@ -14,6 +14,9 @@ function buildSections(): NavSection[] {
       title: "Overview",
       items: [
         { label: "Home", href: "/" },
+        { label: "Learn (lessons)", href: "/learn" },
+        { label: "Study plan", href: "/study-plan" },
+        { label: "My notes", href: "/notes" },
         { label: "Exam recommendations", href: "/recommendations" },
         { label: "Appendix", href: "/appendix" },
       ],

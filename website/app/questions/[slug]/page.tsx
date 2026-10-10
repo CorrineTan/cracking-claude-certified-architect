@@ -1,7 +1,8 @@
+import Link from "next/link";
 import { notFound } from "next/navigation";
 import { TopBar } from "@/components/TopBar";
-import { QuestionCard } from "@/components/QuestionCard";
-import { PrevNext } from "@/components/PrevNext";
+import { ScenarioBoard } from "./ScenarioBoard";
+import { JungleSidebar } from "@/components/JungleSidebar";
 import { SCENARIOS, getScenario } from "@/lib/scenarios";
 import { getQuestionsForScenario } from "@/lib/questions";
 import type { ScenarioSlug } from "@/lib/types";
@@ -20,9 +21,6 @@ export default async function ScenarioQuestionsPage({
   if (!scenario) notFound();
 
   const questions = getQuestionsForScenario(scenario.slug);
-  const pdfQs = questions.filter((q) => q.source === "pdf");
-  const genQs = questions.filter((q) => q.source === "generated");
-
   const idx = SCENARIOS.findIndex((s) => s.slug === scenario.slug);
   const prev = idx > 0 ? SCENARIOS[idx - 1] : undefined;
   const next = idx < SCENARIOS.length - 1 ? SCENARIOS[idx + 1] : undefined;
@@ -36,50 +34,46 @@ export default async function ScenarioQuestionsPage({
           { label: scenario.title },
         ]}
         title={`Questions · ${scenario.title}`}
-        description={`${questions.length} questions for this scenario.`}
+        description={`${questions.length} ${questions.length === 1 ? "question" : "questions"} for this scenario. Use ← → to navigate.`}
       />
-      <div className="space-y-8 px-6 py-8 lg:px-10">
-        {pdfQs.length > 0 && (
-          <section>
-            <h2 className="mb-4 text-xl font-semibold text-ink-900">From exam guide</h2>
-            <div className="space-y-4">
-              {pdfQs.map((q) => (
-                <QuestionCard key={q.id} question={q} />
-              ))}
-            </div>
-          </section>
-        )}
-        {genQs.length > 0 && (
-          <section>
-            <h2 className="mb-4 text-xl font-semibold text-ink-900">Additional practice</h2>
-            <div className="space-y-4">
-              {genQs.map((q) => (
-                <QuestionCard key={q.id} question={q} />
-              ))}
-            </div>
-          </section>
-        )}
-
-        <PrevNext
-          prev={
-            prev
-              ? {
-                  href: `/questions/${prev.slug}`,
-                  sublabel: "Previous scenario",
-                  label: prev.title,
-                }
-              : undefined
-          }
-          next={
-            next
-              ? {
-                  href: `/questions/${next.slug}`,
-                  sublabel: "Next scenario",
-                  label: next.title,
-                }
-              : undefined
-          }
+      <div className="mx-auto flex max-w-7xl gap-6 px-4 py-8 lg:px-6">
+        <div className="min-w-0 flex-1 space-y-6">
+        <ScenarioBoard
+          questions={questions}
+          storageKey={`scenario:${scenario.slug}`}
         />
+
+        {/* Scenario nav */}
+        <div className="flex items-center justify-between gap-3 rounded-2xl border border-clay-200 bg-white p-3 text-sm">
+          {prev ? (
+            <Link
+              href={`/questions/${prev.slug}`}
+              className="flex flex-col rounded-xl px-3 py-2 hover:bg-clay-50"
+            >
+              <span className="font-mono text-[10px] uppercase tracking-wider text-clay-500">
+                ← Previous scenario
+              </span>
+              <span className="text-clay-900">{prev.title}</span>
+            </Link>
+          ) : (
+            <span />
+          )}
+          {next ? (
+            <Link
+              href={`/questions/${next.slug}`}
+              className="flex flex-col rounded-xl px-3 py-2 text-right hover:bg-clay-50"
+            >
+              <span className="font-mono text-[10px] uppercase tracking-wider text-clay-500">
+                Next scenario →
+              </span>
+              <span className="text-clay-900">{next.title}</span>
+            </Link>
+          ) : (
+            <span />
+          )}
+        </div>
+        </div>
+        <JungleSidebar />
       </div>
     </div>
   );

@@ -1,0 +1,331 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - complementary [ref=e3]:
+      - generic [ref=e4]:
+        - link "Claude Certified Architect Foundations · Study Guide" [ref=e5] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e6]: Claude Certified Architect
+          - generic [ref=e7]: Foundations · Study Guide
+        - navigation [ref=e8]:
+          - generic [ref=e9]:
+            - generic [ref=e10]: Overview
+            - list [ref=e11]:
+              - listitem [ref=e12]:
+                - link "Home" [ref=e13] [cursor=pointer]:
+                  - /url: /
+                  - generic [ref=e14]: Home
+              - listitem [ref=e15]:
+                - link "Study plan" [ref=e16] [cursor=pointer]:
+                  - /url: /study-plan
+                  - generic [ref=e17]: Study plan
+              - listitem [ref=e18]:
+                - link "My notes" [ref=e19] [cursor=pointer]:
+                  - /url: /notes
+                  - generic [ref=e20]: My notes
+              - listitem [ref=e21]:
+                - link "Exam recommendations" [ref=e22] [cursor=pointer]:
+                  - /url: /recommendations
+                  - generic [ref=e23]: Exam recommendations
+              - listitem [ref=e24]:
+                - link "Appendix" [ref=e25] [cursor=pointer]:
+                  - /url: /appendix
+                  - generic [ref=e26]: Appendix
+          - generic [ref=e27]:
+            - generic [ref=e28]: Domains
+            - list [ref=e29]:
+              - listitem [ref=e30]:
+                - link "All domains" [ref=e31] [cursor=pointer]:
+                  - /url: /domains
+                  - generic [ref=e32]: All domains
+              - listitem [ref=e33]:
+                - link "1. Agentic Architecture & Orchestration 27%" [ref=e34] [cursor=pointer]:
+                  - /url: /domains/agentic-architecture
+                  - generic [ref=e35]: 1. Agentic Architecture & Orchestration
+                  - generic [ref=e36]: 27%
+              - listitem [ref=e37]:
+                - link "2. Tool Design & MCP Integration 18%" [ref=e38] [cursor=pointer]:
+                  - /url: /domains/tool-design-mcp
+                  - generic [ref=e39]: 2. Tool Design & MCP Integration
+                  - generic [ref=e40]: 18%
+              - listitem [ref=e41]:
+                - link "3. Claude Code Configuration & Workflows 20%" [ref=e42] [cursor=pointer]:
+                  - /url: /domains/claude-code-workflows
+                  - generic [ref=e43]: 3. Claude Code Configuration & Workflows
+                  - generic [ref=e44]: 20%
+              - listitem [ref=e45]:
+                - link "4. Prompt Engineering & Structured Output 20%" [ref=e46] [cursor=pointer]:
+                  - /url: /domains/prompt-engineering
+                  - generic [ref=e47]: 4. Prompt Engineering & Structured Output
+                  - generic [ref=e48]: 20%
+              - listitem [ref=e49]:
+                - link "5. Context Management & Reliability 15%" [ref=e50] [cursor=pointer]:
+                  - /url: /domains/context-reliability
+                  - generic [ref=e51]: 5. Context Management & Reliability
+                  - generic [ref=e52]: 15%
+          - generic [ref=e53]:
+            - generic [ref=e54]: Scenarios
+            - list [ref=e55]:
+              - listitem [ref=e56]:
+                - link "All scenarios" [ref=e57] [cursor=pointer]:
+                  - /url: /scenarios
+                  - generic [ref=e58]: All scenarios
+              - listitem [ref=e59]:
+                - link "1. Customer Support Resolution Agent" [ref=e60] [cursor=pointer]:
+                  - /url: /scenarios/customer-support
+                  - generic [ref=e61]: 1. Customer Support Resolution Agent
+              - listitem [ref=e62]:
+                - link "2. Code Generation with Claude Code" [ref=e63] [cursor=pointer]:
+                  - /url: /scenarios/code-generation
+                  - generic [ref=e64]: 2. Code Generation with Claude Code
+              - listitem [ref=e65]:
+                - link "3. Multi-Agent Research System" [ref=e66] [cursor=pointer]:
+                  - /url: /scenarios/multi-agent-research
+                  - generic [ref=e67]: 3. Multi-Agent Research System
+              - listitem [ref=e68]:
+                - link "4. Developer Productivity with Claude" [ref=e69] [cursor=pointer]:
+                  - /url: /scenarios/developer-productivity
+                  - generic [ref=e70]: 4. Developer Productivity with Claude
+              - listitem [ref=e71]:
+                - link "5. Claude Code for Continuous Integration" [ref=e72] [cursor=pointer]:
+                  - /url: /scenarios/ci-cd
+                  - generic [ref=e73]: 5. Claude Code for Continuous Integration
+              - listitem [ref=e74]:
+                - link "6. Structured Data Extraction" [ref=e75] [cursor=pointer]:
+                  - /url: /scenarios/structured-extraction
+                  - generic [ref=e76]: 6. Structured Data Extraction
+          - generic [ref=e77]:
+            - generic [ref=e78]: Practice Questions
+            - list [ref=e79]:
+              - listitem [ref=e80]:
+                - link "All questions" [ref=e81] [cursor=pointer]:
+                  - /url: /questions
+                  - generic [ref=e82]: All questions
+              - listitem [ref=e83]:
+                - link "Customer Support Resolution Agent" [ref=e84] [cursor=pointer]:
+                  - /url: /questions/customer-support
+                  - generic [ref=e85]: Customer Support Resolution Agent
+              - listitem [ref=e86]:
+                - link "Code Generation with Claude Code" [ref=e87] [cursor=pointer]:
+                  - /url: /questions/code-generation
+                  - generic [ref=e88]: Code Generation with Claude Code
+              - listitem [ref=e89]:
+                - link "Multi-Agent Research System" [ref=e90] [cursor=pointer]:
+                  - /url: /questions/multi-agent-research
+                  - generic [ref=e91]: Multi-Agent Research System
+              - listitem [ref=e92]:
+                - link "Developer Productivity with Claude" [ref=e93] [cursor=pointer]:
+                  - /url: /questions/developer-productivity
+                  - generic [ref=e94]: Developer Productivity with Claude
+              - listitem [ref=e95]:
+                - link "Claude Code for Continuous Integration" [ref=e96] [cursor=pointer]:
+                  - /url: /questions/ci-cd
+                  - generic [ref=e97]: Claude Code for Continuous Integration
+              - listitem [ref=e98]:
+                - link "Structured Data Extraction" [ref=e99] [cursor=pointer]:
+                  - /url: /questions/structured-extraction
+                  - generic [ref=e100]: Structured Data Extraction
+          - generic [ref=e101]:
+            - generic [ref=e102]: Exercises
+            - list [ref=e103]:
+              - listitem [ref=e104]:
+                - link "All exercises" [ref=e105] [cursor=pointer]:
+                  - /url: /exercises
+                  - generic [ref=e106]: All exercises
+              - listitem [ref=e107]:
+                - link "1. Build a Multi-Tool Agent with Escalation Logic ✓" [ref=e108] [cursor=pointer]:
+                  - /url: /exercises/multi-tool-escalation
+                  - generic [ref=e109]: 1. Build a Multi-Tool Agent with Escalation Logic
+                  - generic [ref=e110]: ✓
+              - listitem [ref=e111]:
+                - link "2. Configure Claude Code for a Team Development Workflow ✓" [ref=e112] [cursor=pointer]:
+                  - /url: /exercises/team-workflow
+                  - generic [ref=e113]: 2. Configure Claude Code for a Team Development Workflow
+                  - generic [ref=e114]: ✓
+              - listitem [ref=e115]:
+                - link "3. Build a Structured Data Extraction Pipeline" [ref=e116] [cursor=pointer]:
+                  - /url: /exercises/structured-extraction
+                  - generic [ref=e117]: 3. Build a Structured Data Extraction Pipeline
+              - listitem [ref=e118]:
+                - link "4. Design and Debug a Multi-Agent Research Pipeline" [ref=e119] [cursor=pointer]:
+                  - /url: /exercises/multi-agent-research
+                  - generic [ref=e120]: 4. Design and Debug a Multi-Agent Research Pipeline
+    - main [ref=e121]:
+      - generic [ref=e122]:
+        - generic [ref=e123]:
+          - navigation [ref=e124]:
+            - generic [ref=e126]: Home
+          - generic [ref=e128]:
+            - heading "Claude Certified Architect – Foundations" [level=1] [ref=e129]
+            - paragraph [ref=e130]: A personal study workspace covering every domain, scenario, sample question, and preparation exercise from the exam guide. Use the sidebar to jump between sections.
+        - generic [ref=e131]:
+          - generic [ref=e132]:
+            - generic [ref=e133]:
+              - generic [ref=e134]: Start here
+              - generic [ref=e135]: Follow the 14-day study plan
+              - generic [ref=e136]: Daily checklist · hours budgeted · links straight to the right section. Your progress and notes persist in this browser.
+            - generic [ref=e137]:
+              - link "Open study plan →" [ref=e138] [cursor=pointer]:
+                - /url: /study-plan
+              - link "My notes" [ref=e139] [cursor=pointer]:
+                - /url: /notes
+          - generic [ref=e140]:
+            - generic [ref=e141]:
+              - generic [ref=e142]: Passing score
+              - generic [ref=e143]: 720 / 1,000
+            - generic [ref=e144]:
+              - generic [ref=e145]: Format
+              - generic [ref=e146]: Multiple choice
+              - generic [ref=e147]: 1 correct of 4
+            - generic [ref=e148]:
+              - generic [ref=e149]: Scenarios on exam
+              - generic [ref=e150]: 4 of 6
+              - generic [ref=e151]: picked at random
+            - generic [ref=e152]:
+              - generic [ref=e153]: No penalty
+              - generic [ref=e154]: for guessing
+              - generic [ref=e155]: answer every question
+          - generic [ref=e156]:
+            - generic [ref=e157]:
+              - heading "Domain weighting" [level=2] [ref=e158]
+              - link "All domains →" [ref=e159] [cursor=pointer]:
+                - /url: /domains
+            - generic [ref=e160]:
+              - link "1. Agentic Architecture & Orchestration 27%" [ref=e161] [cursor=pointer]:
+                - /url: /domains/agentic-architecture
+                - generic [ref=e163]:
+                  - generic [ref=e164]: 1. Agentic Architecture & Orchestration
+                  - generic [ref=e165]: 27%
+              - link "2. Tool Design & MCP Integration 18%" [ref=e168] [cursor=pointer]:
+                - /url: /domains/tool-design-mcp
+                - generic [ref=e170]:
+                  - generic [ref=e171]: 2. Tool Design & MCP Integration
+                  - generic [ref=e172]: 18%
+              - link "3. Claude Code Configuration & Workflows 20%" [ref=e175] [cursor=pointer]:
+                - /url: /domains/claude-code-workflows
+                - generic [ref=e177]:
+                  - generic [ref=e178]: 3. Claude Code Configuration & Workflows
+                  - generic [ref=e179]: 20%
+              - link "4. Prompt Engineering & Structured Output 20%" [ref=e182] [cursor=pointer]:
+                - /url: /domains/prompt-engineering
+                - generic [ref=e184]:
+                  - generic [ref=e185]: 4. Prompt Engineering & Structured Output
+                  - generic [ref=e186]: 20%
+              - link "5. Context Management & Reliability 15%" [ref=e189] [cursor=pointer]:
+                - /url: /domains/context-reliability
+                - generic [ref=e191]:
+                  - generic [ref=e192]: 5. Context Management & Reliability
+                  - generic [ref=e193]: 15%
+          - generic [ref=e196]:
+            - generic [ref=e197]:
+              - heading "Exam scenarios" [level=2] [ref=e198]
+              - link "All scenarios →" [ref=e199] [cursor=pointer]:
+                - /url: /scenarios
+            - generic [ref=e200]:
+              - link "Scenario 1 Customer Support Resolution Agent You are building a customer support resolution agent using the Claude Agent SDK. The agent handles high-ambiguity requests like returns, billing disputes, and account issues. It has access to your backend systems through custom Model Context Protocol (MCP) tools (get_customer, lookup_order, process_refund, escalate_to_human). Your target is 80%+ first-contact resolution while knowing when to escalate. D1 Agentic Architecture & Orchestration D2 Tool Design & MCP Integration D5 Context Management & Reliability" [ref=e201] [cursor=pointer]:
+                - /url: /scenarios/customer-support
+                - generic [ref=e203]: Scenario 1
+                - heading "Customer Support Resolution Agent" [level=3] [ref=e204]
+                - paragraph [ref=e205]: You are building a customer support resolution agent using the Claude Agent SDK. The agent handles high-ambiguity requests like returns, billing disputes, and account issues. It has access to your backend systems through custom Model Context Protocol (MCP) tools (get_customer, lookup_order, process_refund, escalate_to_human). Your target is 80%+ first-contact resolution while knowing when to escalate.
+                - generic [ref=e206]:
+                  - generic [ref=e207]:
+                    - generic [ref=e208]: D1
+                    - generic [ref=e209]: Agentic Architecture & Orchestration
+                  - generic [ref=e210]:
+                    - generic [ref=e211]: D2
+                    - generic [ref=e212]: Tool Design & MCP Integration
+                  - generic [ref=e213]:
+                    - generic [ref=e214]: D5
+                    - generic [ref=e215]: Context Management & Reliability
+              - link "Scenario 2 Code Generation with Claude Code You are using Claude Code to accelerate software development. Your team uses it for code generation, refactoring, debugging, and documentation. You need to integrate it into your development workflow with custom slash commands, CLAUDE.md configurations, and understand when to use plan mode vs direct execution. D3 Claude Code Configuration & Workflows D5 Context Management & Reliability" [ref=e216] [cursor=pointer]:
+                - /url: /scenarios/code-generation
+                - generic [ref=e218]: Scenario 2
+                - heading "Code Generation with Claude Code" [level=3] [ref=e219]
+                - paragraph [ref=e220]: You are using Claude Code to accelerate software development. Your team uses it for code generation, refactoring, debugging, and documentation. You need to integrate it into your development workflow with custom slash commands, CLAUDE.md configurations, and understand when to use plan mode vs direct execution.
+                - generic [ref=e221]:
+                  - generic [ref=e222]:
+                    - generic [ref=e223]: D3
+                    - generic [ref=e224]: Claude Code Configuration & Workflows
+                  - generic [ref=e225]:
+                    - generic [ref=e226]: D5
+                    - generic [ref=e227]: Context Management & Reliability
+              - 'link "Scenario 3 Multi-Agent Research System You are building a multi-agent research system using the Claude Agent SDK. A coordinator agent delegates to specialized subagents: one searches the web, one analyzes documents, one synthesizes findings, and one generates reports. The system researches topics and produces comprehensive, cited reports. D1 Agentic Architecture & Orchestration D2 Tool Design & MCP Integration D5 Context Management & Reliability" [ref=e228] [cursor=pointer]':
+                - /url: /scenarios/multi-agent-research
+                - generic [ref=e230]: Scenario 3
+                - heading "Multi-Agent Research System" [level=3] [ref=e231]
+                - paragraph [ref=e232]: "You are building a multi-agent research system using the Claude Agent SDK. A coordinator agent delegates to specialized subagents: one searches the web, one analyzes documents, one synthesizes findings, and one generates reports. The system researches topics and produces comprehensive, cited reports."
+                - generic [ref=e233]:
+                  - generic [ref=e234]:
+                    - generic [ref=e235]: D1
+                    - generic [ref=e236]: Agentic Architecture & Orchestration
+                  - generic [ref=e237]:
+                    - generic [ref=e238]: D2
+                    - generic [ref=e239]: Tool Design & MCP Integration
+                  - generic [ref=e240]:
+                    - generic [ref=e241]: D5
+                    - generic [ref=e242]: Context Management & Reliability
+              - link "Scenario 4 Developer Productivity with Claude You are building developer productivity tools using the Claude Agent SDK. The agent helps engineers explore unfamiliar codebases, understand legacy systems, generate boilerplate code, and automate repetitive tasks. It uses the built-in tools (Read, Write, Bash, Grep, Glob) and integrates with Model Context Protocol (MCP) servers. D2 Tool Design & MCP Integration D3 Claude Code Configuration & Workflows D1 Agentic Architecture & Orchestration" [ref=e243] [cursor=pointer]:
+                - /url: /scenarios/developer-productivity
+                - generic [ref=e245]: Scenario 4
+                - heading "Developer Productivity with Claude" [level=3] [ref=e246]
+                - paragraph [ref=e247]: You are building developer productivity tools using the Claude Agent SDK. The agent helps engineers explore unfamiliar codebases, understand legacy systems, generate boilerplate code, and automate repetitive tasks. It uses the built-in tools (Read, Write, Bash, Grep, Glob) and integrates with Model Context Protocol (MCP) servers.
+                - generic [ref=e248]:
+                  - generic [ref=e249]:
+                    - generic [ref=e250]: D2
+                    - generic [ref=e251]: Tool Design & MCP Integration
+                  - generic [ref=e252]:
+                    - generic [ref=e253]: D3
+                    - generic [ref=e254]: Claude Code Configuration & Workflows
+                  - generic [ref=e255]:
+                    - generic [ref=e256]: D1
+                    - generic [ref=e257]: Agentic Architecture & Orchestration
+              - link "Scenario 5 Claude Code for Continuous Integration You are integrating Claude Code into your Continuous Integration/Continuous Deployment (CI/CD) pipeline. The system runs automated code reviews, generates test cases, and provides feedback on pull requests. You need to design prompts that provide actionable feedback and minimize false positives. D3 Claude Code Configuration & Workflows D4 Prompt Engineering & Structured Output" [ref=e258] [cursor=pointer]:
+                - /url: /scenarios/ci-cd
+                - generic [ref=e260]: Scenario 5
+                - heading "Claude Code for Continuous Integration" [level=3] [ref=e261]
+                - paragraph [ref=e262]: You are integrating Claude Code into your Continuous Integration/Continuous Deployment (CI/CD) pipeline. The system runs automated code reviews, generates test cases, and provides feedback on pull requests. You need to design prompts that provide actionable feedback and minimize false positives.
+                - generic [ref=e263]:
+                  - generic [ref=e264]:
+                    - generic [ref=e265]: D3
+                    - generic [ref=e266]: Claude Code Configuration & Workflows
+                  - generic [ref=e267]:
+                    - generic [ref=e268]: D4
+                    - generic [ref=e269]: Prompt Engineering & Structured Output
+              - link "Scenario 6 Structured Data Extraction You are building a structured data extraction system using Claude. The system extracts information from unstructured documents, validates the output using JavaScript Object Notation (JSON) schemas, and maintains high accuracy. It must handle edge cases gracefully and integrate with downstream systems. D4 Prompt Engineering & Structured Output D5 Context Management & Reliability" [ref=e270] [cursor=pointer]:
+                - /url: /scenarios/structured-extraction
+                - generic [ref=e272]: Scenario 6
+                - heading "Structured Data Extraction" [level=3] [ref=e273]
+                - paragraph [ref=e274]: You are building a structured data extraction system using Claude. The system extracts information from unstructured documents, validates the output using JavaScript Object Notation (JSON) schemas, and maintains high accuracy. It must handle edge cases gracefully and integrate with downstream systems.
+                - generic [ref=e275]:
+                  - generic [ref=e276]:
+                    - generic [ref=e277]: D4
+                    - generic [ref=e278]: Prompt Engineering & Structured Output
+                  - generic [ref=e279]:
+                    - generic [ref=e280]: D5
+                    - generic [ref=e281]: Context Management & Reliability
+          - generic [ref=e282]:
+            - generic [ref=e283]:
+              - heading "Preparation exercises" [level=2] [ref=e284]
+              - link "All exercises →" [ref=e285] [cursor=pointer]:
+                - /url: /exercises
+            - generic [ref=e286]:
+              - link "Exercise 1 Build a Multi-Tool Agent with Escalation Logic In repo" [ref=e287] [cursor=pointer]:
+                - /url: /exercises/multi-tool-escalation
+                - generic [ref=e288]: Exercise 1
+                - generic [ref=e289]: Build a Multi-Tool Agent with Escalation Logic
+                - generic [ref=e290]: In repo
+              - link "Exercise 2 Configure Claude Code for a Team Development Workflow In repo" [ref=e291] [cursor=pointer]:
+                - /url: /exercises/team-workflow
+                - generic [ref=e292]: Exercise 2
+                - generic [ref=e293]: Configure Claude Code for a Team Development Workflow
+                - generic [ref=e294]: In repo
+              - link "Exercise 3 Build a Structured Data Extraction Pipeline Not yet built" [ref=e295] [cursor=pointer]:
+                - /url: /exercises/structured-extraction
+                - generic [ref=e296]: Exercise 3
+                - generic [ref=e297]: Build a Structured Data Extraction Pipeline
+                - generic [ref=e298]: Not yet built
+              - link "Exercise 4 Design and Debug a Multi-Agent Research Pipeline Not yet built" [ref=e299] [cursor=pointer]:
+                - /url: /exercises/multi-agent-research
+                - generic [ref=e300]: Exercise 4
+                - generic [ref=e301]: Design and Debug a Multi-Agent Research Pipeline
+                - generic [ref=e302]: Not yet built
+  - alert [ref=e303]

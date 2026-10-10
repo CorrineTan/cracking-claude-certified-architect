@@ -1,0 +1,707 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - complementary [ref=e3]:
+      - generic [ref=e4]:
+        - link "Claude Certified Architect Foundations · Study Guide" [ref=e5] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e6]: Claude Certified Architect
+          - generic [ref=e7]: Foundations · Study Guide
+        - navigation [ref=e8]:
+          - generic [ref=e9]:
+            - generic [ref=e10]: Overview
+            - list [ref=e11]:
+              - listitem [ref=e12]:
+                - link "Home" [ref=e13] [cursor=pointer]:
+                  - /url: /
+                  - generic [ref=e14]: Home
+              - listitem [ref=e15]:
+                - link "Study plan" [ref=e16] [cursor=pointer]:
+                  - /url: /study-plan
+                  - generic [ref=e17]: Study plan
+              - listitem [ref=e18]:
+                - link "My notes" [ref=e19] [cursor=pointer]:
+                  - /url: /notes
+                  - generic [ref=e20]: My notes
+              - listitem [ref=e21]:
+                - link "Exam recommendations" [ref=e22] [cursor=pointer]:
+                  - /url: /recommendations
+                  - generic [ref=e23]: Exam recommendations
+              - listitem [ref=e24]:
+                - link "Appendix" [ref=e25] [cursor=pointer]:
+                  - /url: /appendix
+                  - generic [ref=e26]: Appendix
+          - generic [ref=e27]:
+            - generic [ref=e28]: Domains
+            - list [ref=e29]:
+              - listitem [ref=e30]:
+                - link "All domains" [ref=e31] [cursor=pointer]:
+                  - /url: /domains
+                  - generic [ref=e32]: All domains
+              - listitem [ref=e33]:
+                - link "1. Agentic Architecture & Orchestration 27%" [ref=e34] [cursor=pointer]:
+                  - /url: /domains/agentic-architecture
+                  - generic [ref=e35]: 1. Agentic Architecture & Orchestration
+                  - generic [ref=e36]: 27%
+              - listitem [ref=e37]:
+                - link "2. Tool Design & MCP Integration 18%" [ref=e38] [cursor=pointer]:
+                  - /url: /domains/tool-design-mcp
+                  - generic [ref=e39]: 2. Tool Design & MCP Integration
+                  - generic [ref=e40]: 18%
+              - listitem [ref=e41]:
+                - link "3. Claude Code Configuration & Workflows 20%" [ref=e42] [cursor=pointer]:
+                  - /url: /domains/claude-code-workflows
+                  - generic [ref=e43]: 3. Claude Code Configuration & Workflows
+                  - generic [ref=e44]: 20%
+              - listitem [ref=e45]:
+                - link "4. Prompt Engineering & Structured Output 20%" [ref=e46] [cursor=pointer]:
+                  - /url: /domains/prompt-engineering
+                  - generic [ref=e47]: 4. Prompt Engineering & Structured Output
+                  - generic [ref=e48]: 20%
+              - listitem [ref=e49]:
+                - link "5. Context Management & Reliability 15%" [ref=e50] [cursor=pointer]:
+                  - /url: /domains/context-reliability
+                  - generic [ref=e51]: 5. Context Management & Reliability
+                  - generic [ref=e52]: 15%
+          - generic [ref=e53]:
+            - generic [ref=e54]: Scenarios
+            - list [ref=e55]:
+              - listitem [ref=e56]:
+                - link "All scenarios" [ref=e57] [cursor=pointer]:
+                  - /url: /scenarios
+                  - generic [ref=e58]: All scenarios
+              - listitem [ref=e59]:
+                - link "1. Customer Support Resolution Agent" [ref=e60] [cursor=pointer]:
+                  - /url: /scenarios/customer-support
+                  - generic [ref=e61]: 1. Customer Support Resolution Agent
+              - listitem [ref=e62]:
+                - link "2. Code Generation with Claude Code" [ref=e63] [cursor=pointer]:
+                  - /url: /scenarios/code-generation
+                  - generic [ref=e64]: 2. Code Generation with Claude Code
+              - listitem [ref=e65]:
+                - link "3. Multi-Agent Research System" [ref=e66] [cursor=pointer]:
+                  - /url: /scenarios/multi-agent-research
+                  - generic [ref=e67]: 3. Multi-Agent Research System
+              - listitem [ref=e68]:
+                - link "4. Developer Productivity with Claude" [ref=e69] [cursor=pointer]:
+                  - /url: /scenarios/developer-productivity
+                  - generic [ref=e70]: 4. Developer Productivity with Claude
+              - listitem [ref=e71]:
+                - link "5. Claude Code for Continuous Integration" [ref=e72] [cursor=pointer]:
+                  - /url: /scenarios/ci-cd
+                  - generic [ref=e73]: 5. Claude Code for Continuous Integration
+              - listitem [ref=e74]:
+                - link "6. Structured Data Extraction" [ref=e75] [cursor=pointer]:
+                  - /url: /scenarios/structured-extraction
+                  - generic [ref=e76]: 6. Structured Data Extraction
+          - generic [ref=e77]:
+            - generic [ref=e78]: Practice Questions
+            - list [ref=e79]:
+              - listitem [ref=e80]:
+                - link "All questions" [ref=e81] [cursor=pointer]:
+                  - /url: /questions
+                  - generic [ref=e82]: All questions
+              - listitem [ref=e83]:
+                - link "Customer Support Resolution Agent" [ref=e84] [cursor=pointer]:
+                  - /url: /questions/customer-support
+                  - generic [ref=e85]: Customer Support Resolution Agent
+              - listitem [ref=e86]:
+                - link "Code Generation with Claude Code" [ref=e87] [cursor=pointer]:
+                  - /url: /questions/code-generation
+                  - generic [ref=e88]: Code Generation with Claude Code
+              - listitem [ref=e89]:
+                - link "Multi-Agent Research System" [ref=e90] [cursor=pointer]:
+                  - /url: /questions/multi-agent-research
+                  - generic [ref=e91]: Multi-Agent Research System
+              - listitem [ref=e92]:
+                - link "Developer Productivity with Claude" [ref=e93] [cursor=pointer]:
+                  - /url: /questions/developer-productivity
+                  - generic [ref=e94]: Developer Productivity with Claude
+              - listitem [ref=e95]:
+                - link "Claude Code for Continuous Integration" [ref=e96] [cursor=pointer]:
+                  - /url: /questions/ci-cd
+                  - generic [ref=e97]: Claude Code for Continuous Integration
+              - listitem [ref=e98]:
+                - link "Structured Data Extraction" [ref=e99] [cursor=pointer]:
+                  - /url: /questions/structured-extraction
+                  - generic [ref=e100]: Structured Data Extraction
+          - generic [ref=e101]:
+            - generic [ref=e102]: Exercises
+            - list [ref=e103]:
+              - listitem [ref=e104]:
+                - link "All exercises" [ref=e105] [cursor=pointer]:
+                  - /url: /exercises
+                  - generic [ref=e106]: All exercises
+              - listitem [ref=e107]:
+                - link "1. Build a Multi-Tool Agent with Escalation Logic ✓" [ref=e108] [cursor=pointer]:
+                  - /url: /exercises/multi-tool-escalation
+                  - generic [ref=e109]: 1. Build a Multi-Tool Agent with Escalation Logic
+                  - generic [ref=e110]: ✓
+              - listitem [ref=e111]:
+                - link "2. Configure Claude Code for a Team Development Workflow ✓" [ref=e112] [cursor=pointer]:
+                  - /url: /exercises/team-workflow
+                  - generic [ref=e113]: 2. Configure Claude Code for a Team Development Workflow
+                  - generic [ref=e114]: ✓
+              - listitem [ref=e115]:
+                - link "3. Build a Structured Data Extraction Pipeline" [ref=e116] [cursor=pointer]:
+                  - /url: /exercises/structured-extraction
+                  - generic [ref=e117]: 3. Build a Structured Data Extraction Pipeline
+              - listitem [ref=e118]:
+                - link "4. Design and Debug a Multi-Agent Research Pipeline" [ref=e119] [cursor=pointer]:
+                  - /url: /exercises/multi-agent-research
+                  - generic [ref=e120]: 4. Design and Debug a Multi-Agent Research Pipeline
+    - main [ref=e121]:
+      - generic [ref=e122]:
+        - generic [ref=e123]:
+          - navigation [ref=e124]:
+            - generic [ref=e125]:
+              - link "Home" [ref=e126] [cursor=pointer]:
+                - /url: /
+              - generic [ref=e127]: /
+            - generic [ref=e129]: Study plan
+          - generic [ref=e131]:
+            - heading "14-day study plan" [level=1] [ref=e132]
+            - paragraph [ref=e133]: A day-by-day path from first read-through to exam-ready. Check items as you finish them — progress stays on this device.
+        - generic [ref=e134]:
+          - generic [ref=e135]:
+            - generic [ref=e136]:
+              - heading "Week 1 · Framework + hands-on" [level=2] [ref=e137]
+              - generic [ref=e138]: 18.0h across 7 days
+            - generic [ref=e139]:
+              - article [ref=e140]:
+                - generic [ref=e142]:
+                  - generic [ref=e143]: Day 1
+                  - 'heading "Framework: overview + Domain 1" [level=3] [ref=e144]'
+                - generic [ref=e145]:
+                  - generic [ref=e146]:
+                    - generic [ref=e147]: 0 / 5 done
+                    - generic [ref=e148]: 2.5h
+                  - list [ref=e150]:
+                    - listitem [ref=e151]:
+                      - checkbox "Read Home page — exam weights, passing score, 6 scenarios at a glance" [ref=e152] [cursor=pointer]
+                      - generic [ref=e153]:
+                        - generic [ref=e154]: Read Home page — exam weights, passing score, 6 scenarios at a glance
+                        - generic [ref=e155]:
+                          - generic [ref=e156]: ~0.25h
+                          - link "Go →" [ref=e157] [cursor=pointer]:
+                            - /url: /
+                    - listitem [ref=e158]:
+                      - checkbox "Read Appendix — in-scope vs out-of-scope topics" [ref=e159] [cursor=pointer]
+                      - generic [ref=e160]:
+                        - generic [ref=e161]: Read Appendix — in-scope vs out-of-scope topics
+                        - generic [ref=e162]:
+                          - generic [ref=e163]: ~0.25h
+                          - link "Go →" [ref=e164] [cursor=pointer]:
+                            - /url: /appendix
+                    - listitem [ref=e165]:
+                      - checkbox "Read the 8 exam preparation recommendations" [ref=e166] [cursor=pointer]
+                      - generic [ref=e167]:
+                        - generic [ref=e168]: Read the 8 exam preparation recommendations
+                        - generic [ref=e169]:
+                          - generic [ref=e170]: ~0.25h
+                          - link "Go →" [ref=e171] [cursor=pointer]:
+                            - /url: /recommendations
+                    - listitem [ref=e172]:
+                      - checkbox "Deep-read Domain 1 — all 7 task statements with deep dives" [ref=e173] [cursor=pointer]
+                      - generic [ref=e174]:
+                        - generic [ref=e175]: Deep-read Domain 1 — all 7 task statements with deep dives
+                        - generic [ref=e176]: 27% of the exam — biggest domain
+                        - generic [ref=e177]:
+                          - generic [ref=e178]: ~1.25h
+                          - link "Go →" [ref=e179] [cursor=pointer]:
+                            - /url: /domains/agentic-architecture
+                    - listitem [ref=e180]:
+                      - checkbox "Walk through Exercise 1's src/agent.py — see the stop_reason loop in real code" [ref=e181] [cursor=pointer]
+                      - generic [ref=e182]:
+                        - generic [ref=e183]: Walk through Exercise 1's src/agent.py — see the stop_reason loop in real code
+                        - generic [ref=e184]: Exercise/Exercise1_Multi_Tool_Escalaction_Logic/src/agent.py
+                        - generic [ref=e185]:
+                          - generic [ref=e186]: ~0.5h
+                          - link "Go →" [ref=e187] [cursor=pointer]:
+                            - /url: /exercises/multi-tool-escalation
+                - generic [ref=e189]:
+                  - generic [ref=e190]:
+                    - generic [ref=e191]: Day 1 journal
+                    - generic [ref=e193]: 0 chars
+                  - textbox "What clicked today? What do I want to revisit tomorrow?" [ref=e194]
+              - article [ref=e195]:
+                - generic [ref=e197]:
+                  - generic [ref=e198]: Day 2
+                  - 'heading "Hands-on: run Exercise 1" [level=3] [ref=e199]'
+                - generic [ref=e200]:
+                  - generic [ref=e201]:
+                    - generic [ref=e202]: 0 / 6 done
+                    - generic [ref=e203]: 3h
+                  - list [ref=e205]:
+                    - listitem [ref=e206]:
+                      - checkbox "Set up Exercise 1 venv + deps; add ANTHROPIC_API_KEY to .env" [ref=e207] [cursor=pointer]
+                      - generic [ref=e208]:
+                        - generic [ref=e209]: Set up Exercise 1 venv + deps; add ANTHROPIC_API_KEY to .env
+                        - generic [ref=e211]: ~0.25h
+                    - listitem [ref=e212]:
+                      - checkbox "python main.py all — observe all scenarios end-to-end" [ref=e213] [cursor=pointer]
+                      - generic [ref=e214]:
+                        - generic [ref=e215]: python main.py all — observe all scenarios end-to-end
+                        - generic [ref=e217]: ~0.75h
+                    - listitem [ref=e218]:
+                      - checkbox "Read src/hooks.py — prerequisite gate + $500 threshold rule" [ref=e219] [cursor=pointer]
+                      - generic [ref=e220]:
+                        - generic [ref=e221]: Read src/hooks.py — prerequisite gate + $500 threshold rule
+                        - generic [ref=e222]: This is Task 1.5 in code form
+                        - generic [ref=e224]: ~0.5h
+                    - listitem [ref=e225]:
+                      - checkbox "Read src/mcp_server.py — isError + errorCategory + isRetryable in action" [ref=e226] [cursor=pointer]
+                      - generic [ref=e227]:
+                        - generic [ref=e228]: Read src/mcp_server.py — isError + errorCategory + isRetryable in action
+                        - generic [ref=e229]: Task 2.2
+                        - generic [ref=e231]: ~0.5h
+                    - listitem [ref=e232]:
+                      - checkbox "SIMULATE_TRANSIENT_ERRORS=1 python main.py 1_simple_order_inquiry — watch retry behavior" [ref=e233] [cursor=pointer]
+                      - generic [ref=e234]:
+                        - generic [ref=e235]: SIMULATE_TRANSIENT_ERRORS=1 python main.py 1_simple_order_inquiry — watch retry behavior
+                        - generic [ref=e237]: ~0.5h
+                    - listitem [ref=e238]:
+                      - checkbox "Read src/context.py — CaseFacts injection at top of system prompt" [ref=e239] [cursor=pointer]
+                      - generic [ref=e240]:
+                        - generic [ref=e241]: Read src/context.py — CaseFacts injection at top of system prompt
+                        - generic [ref=e242]: Task 5.1
+                        - generic [ref=e244]: ~0.5h
+                - generic [ref=e246]:
+                  - generic [ref=e247]:
+                    - generic [ref=e248]: Day 2 journal
+                    - generic [ref=e250]: 0 chars
+                  - textbox "What clicked today? What do I want to revisit tomorrow?" [ref=e251]
+              - article [ref=e252]:
+                - generic [ref=e254]:
+                  - generic [ref=e255]: Day 3
+                  - heading "Domain 2 + Customer Support questions" [level=3] [ref=e256]
+                - generic [ref=e257]:
+                  - generic [ref=e258]:
+                    - generic [ref=e259]: 0 / 2 done
+                    - generic [ref=e260]: 2h
+                  - list [ref=e262]:
+                    - listitem [ref=e263]:
+                      - checkbox "Deep-read Domain 2 — tool descriptions, structured errors, tool_choice, MCP, built-in tools" [ref=e264] [cursor=pointer]
+                      - generic [ref=e265]:
+                        - generic [ref=e266]: Deep-read Domain 2 — tool descriptions, structured errors, tool_choice, MCP, built-in tools
+                        - generic [ref=e267]:
+                          - generic [ref=e268]: ~1.25h
+                          - link "Go →" [ref=e269] [cursor=pointer]:
+                            - /url: /domains/tool-design-mcp
+                    - listitem [ref=e270]:
+                      - checkbox "Do all 6 Customer Support practice questions (3 PDF + 3 generated)" [ref=e271] [cursor=pointer]
+                      - generic [ref=e272]:
+                        - generic [ref=e273]: Do all 6 Customer Support practice questions (3 PDF + 3 generated)
+                        - generic [ref=e274]:
+                          - generic [ref=e275]: ~0.75h
+                          - link "Go →" [ref=e276] [cursor=pointer]:
+                            - /url: /questions/customer-support
+                - generic [ref=e278]:
+                  - generic [ref=e279]:
+                    - generic [ref=e280]: Day 3 journal
+                    - generic [ref=e282]: 0 chars
+                  - textbox "What clicked today? What do I want to revisit tomorrow?" [ref=e283]
+              - article [ref=e284]:
+                - generic [ref=e286]:
+                  - generic [ref=e287]: Day 4
+                  - heading "Domain 3 + Exercise 2 configuration walkthrough" [level=3] [ref=e288]
+                - generic [ref=e289]:
+                  - generic [ref=e290]:
+                    - generic [ref=e291]: 0 / 5 done
+                    - generic [ref=e292]: 3h
+                  - list [ref=e294]:
+                    - listitem [ref=e295]:
+                      - checkbox "Deep-read Domain 3 — CLAUDE.md hierarchy, rules, skills, plan mode, CI/CD" [ref=e296] [cursor=pointer]
+                      - generic [ref=e297]:
+                        - generic [ref=e298]: Deep-read Domain 3 — CLAUDE.md hierarchy, rules, skills, plan mode, CI/CD
+                        - generic [ref=e299]:
+                          - generic [ref=e300]: ~1.25h
+                          - link "Go →" [ref=e301] [cursor=pointer]:
+                            - /url: /domains/claude-code-workflows
+                    - listitem [ref=e302]:
+                      - checkbox "Read .claude/rules/ in Exercise 2 — YAML frontmatter glob patterns" [ref=e303] [cursor=pointer]
+                      - generic [ref=e304]:
+                        - generic [ref=e305]: Read .claude/rules/ in Exercise 2 — YAML frontmatter glob patterns
+                        - generic [ref=e306]: Task 3.3 — path-specific rules
+                        - generic [ref=e308]: ~0.5h
+                    - listitem [ref=e309]:
+                      - 'checkbox "Read .claude/skills/analyze-module/SKILL.md — context: fork + allowed-tools" [ref=e310] [cursor=pointer]'
+                      - generic [ref=e311]:
+                        - generic [ref=e312]: "Read .claude/skills/analyze-module/SKILL.md — context: fork + allowed-tools"
+                        - generic [ref=e313]: Task 3.2
+                        - generic [ref=e315]: ~0.5h
+                    - listitem [ref=e316]:
+                      - checkbox "Read .mcp.json — env var expansion for credentials" [ref=e317] [cursor=pointer]
+                      - generic [ref=e318]:
+                        - generic [ref=e319]: Read .mcp.json — env var expansion for credentials
+                        - generic [ref=e320]: Task 2.4
+                        - generic [ref=e322]: ~0.25h
+                    - listitem [ref=e323]:
+                      - checkbox "Do all 6 Code Generation practice questions" [ref=e324] [cursor=pointer]
+                      - generic [ref=e325]:
+                        - generic [ref=e326]: Do all 6 Code Generation practice questions
+                        - generic [ref=e327]:
+                          - generic [ref=e328]: ~0.5h
+                          - link "Go →" [ref=e329] [cursor=pointer]:
+                            - /url: /questions/code-generation
+                - generic [ref=e331]:
+                  - generic [ref=e332]:
+                    - generic [ref=e333]: Day 4 journal
+                    - generic [ref=e335]: 0 chars
+                  - textbox "What clicked today? What do I want to revisit tomorrow?" [ref=e336]
+              - article [ref=e337]:
+                - generic [ref=e339]:
+                  - generic [ref=e340]: Day 5
+                  - heading "Domain 4 + Structured Extraction questions" [level=3] [ref=e341]
+                - generic [ref=e342]:
+                  - generic [ref=e343]:
+                    - generic [ref=e344]: 0 / 2 done
+                    - generic [ref=e345]: 2.5h
+                  - list [ref=e347]:
+                    - listitem [ref=e348]:
+                      - checkbox "Deep-read Domain 4 — explicit criteria, few-shot, tool_use schemas, validation-retry, batch, multi-pass" [ref=e349] [cursor=pointer]
+                      - generic [ref=e350]:
+                        - generic [ref=e351]: Deep-read Domain 4 — explicit criteria, few-shot, tool_use schemas, validation-retry, batch, multi-pass
+                        - generic [ref=e352]:
+                          - generic [ref=e353]: ~1.5h
+                          - link "Go →" [ref=e354] [cursor=pointer]:
+                            - /url: /domains/prompt-engineering
+                    - listitem [ref=e355]:
+                      - checkbox "Do all 6 Structured Extraction practice questions" [ref=e356] [cursor=pointer]
+                      - generic [ref=e357]:
+                        - generic [ref=e358]: Do all 6 Structured Extraction practice questions
+                        - generic [ref=e359]:
+                          - generic [ref=e360]: ~1h
+                          - link "Go →" [ref=e361] [cursor=pointer]:
+                            - /url: /questions/structured-extraction
+                - generic [ref=e363]:
+                  - generic [ref=e364]:
+                    - generic [ref=e365]: Day 5 journal
+                    - generic [ref=e367]: 0 chars
+                  - textbox "What clicked today? What do I want to revisit tomorrow?" [ref=e368]
+              - article [ref=e369]:
+                - generic [ref=e371]:
+                  - generic [ref=e372]: Day 6
+                  - heading "Domain 5 + Multi-Agent Research questions" [level=3] [ref=e373]
+                - generic [ref=e374]:
+                  - generic [ref=e375]:
+                    - generic [ref=e376]: 0 / 2 done
+                    - generic [ref=e377]: 2h
+                  - list [ref=e379]:
+                    - listitem [ref=e380]:
+                      - checkbox "Deep-read Domain 5 — context management, escalation, error propagation, provenance" [ref=e381] [cursor=pointer]
+                      - generic [ref=e382]:
+                        - generic [ref=e383]: Deep-read Domain 5 — context management, escalation, error propagation, provenance
+                        - generic [ref=e384]:
+                          - generic [ref=e385]: ~1.25h
+                          - link "Go →" [ref=e386] [cursor=pointer]:
+                            - /url: /domains/context-reliability
+                    - listitem [ref=e387]:
+                      - checkbox "Do all 6 Multi-Agent Research practice questions" [ref=e388] [cursor=pointer]
+                      - generic [ref=e389]:
+                        - generic [ref=e390]: Do all 6 Multi-Agent Research practice questions
+                        - generic [ref=e391]:
+                          - generic [ref=e392]: ~0.75h
+                          - link "Go →" [ref=e393] [cursor=pointer]:
+                            - /url: /questions/multi-agent-research
+                - generic [ref=e395]:
+                  - generic [ref=e396]:
+                    - generic [ref=e397]: Day 6 journal
+                    - generic [ref=e399]: 0 chars
+                  - textbox "What clicked today? What do I want to revisit tomorrow?" [ref=e400]
+              - article [ref=e401]:
+                - generic [ref=e403]:
+                  - generic [ref=e404]: Day 7
+                  - heading "Error review + weak-domain reread" [level=3] [ref=e405]
+                - generic [ref=e406]:
+                  - generic [ref=e407]:
+                    - generic [ref=e408]: 0 / 3 done
+                    - generic [ref=e409]: 3h
+                  - list [ref=e411]:
+                    - listitem [ref=e412]:
+                      - checkbox "Revisit every question you got wrong this week; read the explanation + task deep-dive again" [ref=e413] [cursor=pointer]
+                      - generic [ref=e414]:
+                        - generic [ref=e415]: Revisit every question you got wrong this week; read the explanation + task deep-dive again
+                        - generic [ref=e417]: ~1.5h
+                    - listitem [ref=e418]:
+                      - checkbox "For any domain with >30% miss rate, reread the full domain page" [ref=e419] [cursor=pointer]
+                      - generic [ref=e420]:
+                        - generic [ref=e421]: For any domain with >30% miss rate, reread the full domain page
+                        - generic [ref=e423]: ~1h
+                    - listitem [ref=e424]:
+                      - checkbox "Do all 6 Developer Productivity practice questions (not in PDF — all fresh)" [ref=e425] [cursor=pointer]
+                      - generic [ref=e426]:
+                        - generic [ref=e427]: Do all 6 Developer Productivity practice questions (not in PDF — all fresh)
+                        - generic [ref=e428]:
+                          - generic [ref=e429]: ~0.5h
+                          - link "Go →" [ref=e430] [cursor=pointer]:
+                            - /url: /questions/developer-productivity
+                - generic [ref=e432]:
+                  - generic [ref=e433]:
+                    - generic [ref=e434]: Day 7 journal
+                    - generic [ref=e436]: 0 chars
+                  - textbox "What clicked today? What do I want to revisit tomorrow?" [ref=e437]
+          - generic [ref=e438]:
+            - generic [ref=e439]:
+              - heading "Week 2 · Test-taking practice" [level=2] [ref=e440]
+              - generic [ref=e441]: 11.5h across 7 days
+            - generic [ref=e442]:
+              - article [ref=e443]:
+                - generic [ref=e445]:
+                  - generic [ref=e446]: Day 8
+                  - 'heading "Scenarios: narratives + cross-links" [level=3] [ref=e447]'
+                - generic [ref=e448]:
+                  - generic [ref=e449]:
+                    - generic [ref=e450]: 0 / 7 done
+                    - generic [ref=e451]: 2h
+                  - list [ref=e453]:
+                    - listitem [ref=e454]:
+                      - checkbox "Read scenarios index; notice primaryDomains on each card" [ref=e455] [cursor=pointer]
+                      - generic [ref=e456]:
+                        - generic [ref=e457]: Read scenarios index; notice primaryDomains on each card
+                        - generic [ref=e458]:
+                          - generic [ref=e459]: ~0.25h
+                          - link "Go →" [ref=e460] [cursor=pointer]:
+                            - /url: /scenarios
+                    - listitem [ref=e461]:
+                      - checkbox "Read Customer Support scenario deep dive + 5 key task jump-links" [ref=e462] [cursor=pointer]
+                      - generic [ref=e463]:
+                        - generic [ref=e464]: Read Customer Support scenario deep dive + 5 key task jump-links
+                        - generic [ref=e465]:
+                          - generic [ref=e466]: ~0.3h
+                          - link "Go →" [ref=e467] [cursor=pointer]:
+                            - /url: /scenarios/customer-support
+                    - listitem [ref=e468]:
+                      - checkbox "Read Code Generation scenario deep dive" [ref=e469] [cursor=pointer]
+                      - generic [ref=e470]:
+                        - generic [ref=e471]: Read Code Generation scenario deep dive
+                        - generic [ref=e472]:
+                          - generic [ref=e473]: ~0.25h
+                          - link "Go →" [ref=e474] [cursor=pointer]:
+                            - /url: /scenarios/code-generation
+                    - listitem [ref=e475]:
+                      - checkbox "Read Multi-Agent Research scenario deep dive" [ref=e476] [cursor=pointer]
+                      - generic [ref=e477]:
+                        - generic [ref=e478]: Read Multi-Agent Research scenario deep dive
+                        - generic [ref=e479]:
+                          - generic [ref=e480]: ~0.3h
+                          - link "Go →" [ref=e481] [cursor=pointer]:
+                            - /url: /scenarios/multi-agent-research
+                    - listitem [ref=e482]:
+                      - checkbox "Read Developer Productivity scenario deep dive" [ref=e483] [cursor=pointer]
+                      - generic [ref=e484]:
+                        - generic [ref=e485]: Read Developer Productivity scenario deep dive
+                        - generic [ref=e486]:
+                          - generic [ref=e487]: ~0.25h
+                          - link "Go →" [ref=e488] [cursor=pointer]:
+                            - /url: /scenarios/developer-productivity
+                    - listitem [ref=e489]:
+                      - checkbox "Read CI/CD scenario deep dive" [ref=e490] [cursor=pointer]
+                      - generic [ref=e491]:
+                        - generic [ref=e492]: Read CI/CD scenario deep dive
+                        - generic [ref=e493]:
+                          - generic [ref=e494]: ~0.3h
+                          - link "Go →" [ref=e495] [cursor=pointer]:
+                            - /url: /scenarios/ci-cd
+                    - listitem [ref=e496]:
+                      - checkbox "Read Structured Extraction scenario deep dive" [ref=e497] [cursor=pointer]
+                      - generic [ref=e498]:
+                        - generic [ref=e499]: Read Structured Extraction scenario deep dive
+                        - generic [ref=e500]:
+                          - generic [ref=e501]: ~0.35h
+                          - link "Go →" [ref=e502] [cursor=pointer]:
+                            - /url: /scenarios/structured-extraction
+                - generic [ref=e504]:
+                  - generic [ref=e505]:
+                    - generic [ref=e506]: Day 8 journal
+                    - generic [ref=e508]: 0 chars
+                  - textbox "What clicked today? What do I want to revisit tomorrow?" [ref=e509]
+              - article [ref=e510]:
+                - generic [ref=e512]:
+                  - generic [ref=e513]: Day 9
+                  - heading "12 PDF sample questions — cold" [level=3] [ref=e514]
+                - generic [ref=e515]:
+                  - generic [ref=e516]:
+                    - generic [ref=e517]: 0 / 5 done
+                    - generic [ref=e518]: 2.5h
+                  - list [ref=e520]:
+                    - listitem [ref=e521]:
+                      - checkbox "Answer the 3 PDF Customer Support questions WITHOUT looking at the answer first" [ref=e522] [cursor=pointer]
+                      - generic [ref=e523]:
+                        - generic [ref=e524]: Answer the 3 PDF Customer Support questions WITHOUT looking at the answer first
+                        - generic [ref=e525]:
+                          - generic [ref=e526]: ~0.5h
+                          - link "Go →" [ref=e527] [cursor=pointer]:
+                            - /url: /questions/customer-support
+                    - listitem [ref=e528]:
+                      - checkbox "Answer the 3 PDF Code Generation questions cold" [ref=e529] [cursor=pointer]
+                      - generic [ref=e530]:
+                        - generic [ref=e531]: Answer the 3 PDF Code Generation questions cold
+                        - generic [ref=e532]:
+                          - generic [ref=e533]: ~0.5h
+                          - link "Go →" [ref=e534] [cursor=pointer]:
+                            - /url: /questions/code-generation
+                    - listitem [ref=e535]:
+                      - checkbox "Answer the 3 PDF Multi-Agent Research questions cold" [ref=e536] [cursor=pointer]
+                      - generic [ref=e537]:
+                        - generic [ref=e538]: Answer the 3 PDF Multi-Agent Research questions cold
+                        - generic [ref=e539]:
+                          - generic [ref=e540]: ~0.5h
+                          - link "Go →" [ref=e541] [cursor=pointer]:
+                            - /url: /questions/multi-agent-research
+                    - listitem [ref=e542]:
+                      - checkbox "Answer the 3 PDF CI/CD questions cold" [ref=e543] [cursor=pointer]
+                      - generic [ref=e544]:
+                        - generic [ref=e545]: Answer the 3 PDF CI/CD questions cold
+                        - generic [ref=e546]:
+                          - generic [ref=e547]: ~0.5h
+                          - link "Go →" [ref=e548] [cursor=pointer]:
+                            - /url: /questions/ci-cd
+                    - listitem [ref=e549]:
+                      - checkbox "Record your cold accuracy; note which domains / task IDs you missed" [ref=e550] [cursor=pointer]
+                      - generic [ref=e551]:
+                        - generic [ref=e552]: Record your cold accuracy; note which domains / task IDs you missed
+                        - generic [ref=e554]: ~0.5h
+                - generic [ref=e556]:
+                  - generic [ref=e557]:
+                    - generic [ref=e558]: Day 9 journal
+                    - generic [ref=e560]: 0 chars
+                  - textbox "What clicked today? What do I want to revisit tomorrow?" [ref=e561]
+              - article [ref=e562]:
+                - generic [ref=e564]:
+                  - generic [ref=e565]: Day 10
+                  - heading "18 generated questions — cold" [level=3] [ref=e566]
+                - generic [ref=e567]:
+                  - generic [ref=e568]:
+                    - generic [ref=e569]: 0 / 2 done
+                    - generic [ref=e570]: 2h
+                  - list [ref=e572]:
+                    - listitem [ref=e573]:
+                      - checkbox "Answer all 18 generated questions across all 6 scenarios, cold" [ref=e574] [cursor=pointer]
+                      - generic [ref=e575]:
+                        - generic [ref=e576]: Answer all 18 generated questions across all 6 scenarios, cold
+                        - generic [ref=e577]:
+                          - generic [ref=e578]: ~1.5h
+                          - link "Go →" [ref=e579] [cursor=pointer]:
+                            - /url: /questions
+                    - listitem [ref=e580]:
+                      - checkbox "Record accuracy by scenario + task ID" [ref=e581] [cursor=pointer]
+                      - generic [ref=e582]:
+                        - generic [ref=e583]: Record accuracy by scenario + task ID
+                        - generic [ref=e585]: ~0.5h
+                - generic [ref=e587]:
+                  - generic [ref=e588]:
+                    - generic [ref=e589]: Day 10 journal
+                    - generic [ref=e591]: 0 chars
+                  - textbox "What clicked today? What do I want to revisit tomorrow?" [ref=e592]
+              - article [ref=e593]:
+                - generic [ref=e595]:
+                  - generic [ref=e596]: Day 11
+                  - heading "Error review" [level=3] [ref=e597]
+                - generic [ref=e598]:
+                  - generic [ref=e599]:
+                    - generic [ref=e600]: 0 / 2 done
+                    - generic [ref=e601]: 2h
+                  - list [ref=e603]:
+                    - listitem [ref=e604]:
+                      - 'checkbox "For each error, jump back to Task X.Y → read deep dive → write one sentence: \"I chose wrong because ___\"" [ref=e605] [cursor=pointer]'
+                      - generic [ref=e606]:
+                        - generic [ref=e607]: "For each error, jump back to Task X.Y → read deep dive → write one sentence: \"I chose wrong because ___\""
+                        - generic [ref=e609]: ~1.25h
+                    - listitem [ref=e610]:
+                      - checkbox "Reread any domain where error rate is still >20%" [ref=e611] [cursor=pointer]
+                      - generic [ref=e612]:
+                        - generic [ref=e613]: Reread any domain where error rate is still >20%
+                        - generic [ref=e615]: ~0.75h
+                - generic [ref=e617]:
+                  - generic [ref=e618]:
+                    - generic [ref=e619]: Day 11 journal
+                    - generic [ref=e621]: 0 chars
+                  - textbox "What clicked today? What do I want to revisit tomorrow?" [ref=e622]
+              - article [ref=e623]:
+                - generic [ref=e625]:
+                  - generic [ref=e626]: Day 12
+                  - heading "Exercises 3 + 4 — paper walkthrough" [level=3] [ref=e627]
+                - generic [ref=e628]:
+                  - generic [ref=e629]:
+                    - generic [ref=e630]: 0 / 2 done
+                    - generic [ref=e631]: 2h
+                  - list [ref=e633]:
+                    - listitem [ref=e634]:
+                      - 'checkbox "Exercise 3 — walk the 5 steps mentally: schema with nullable fields, validation-retry loop, few-shot, batch with custom_id, confidence-based review routing" [ref=e635] [cursor=pointer]'
+                      - generic [ref=e636]:
+                        - generic [ref=e637]: "Exercise 3 — walk the 5 steps mentally: schema with nullable fields, validation-retry loop, few-shot, batch with custom_id, confidence-based review routing"
+                        - generic [ref=e638]:
+                          - generic [ref=e639]: ~1h
+                          - link "Go →" [ref=e640] [cursor=pointer]:
+                            - /url: /exercises/structured-extraction
+                    - listitem [ref=e641]:
+                      - 'checkbox "Exercise 4 — walk the 5 steps mentally: coordinator-subagent, parallel Task calls, structured output with provenance, error propagation, conflicting sources" [ref=e642] [cursor=pointer]'
+                      - generic [ref=e643]:
+                        - generic [ref=e644]: "Exercise 4 — walk the 5 steps mentally: coordinator-subagent, parallel Task calls, structured output with provenance, error propagation, conflicting sources"
+                        - generic [ref=e645]:
+                          - generic [ref=e646]: ~1h
+                          - link "Go →" [ref=e647] [cursor=pointer]:
+                            - /url: /exercises/multi-agent-research
+                - generic [ref=e649]:
+                  - generic [ref=e650]:
+                    - generic [ref=e651]: Day 12 journal
+                    - generic [ref=e653]: 0 chars
+                  - textbox "What clicked today? What do I want to revisit tomorrow?" [ref=e654]
+              - article [ref=e655]:
+                - generic [ref=e657]:
+                  - generic [ref=e658]: Day 13
+                  - heading "Final error pass + readiness check" [level=3] [ref=e659]
+                - generic [ref=e660]:
+                  - generic [ref=e661]:
+                    - generic [ref=e662]: 0 / 2 done
+                    - generic [ref=e663]: 1h
+                  - list [ref=e665]:
+                    - listitem [ref=e666]:
+                      - checkbox "Final pass on your error log — only the questions you got wrong" [ref=e667] [cursor=pointer]
+                      - generic [ref=e668]:
+                        - generic [ref=e669]: Final pass on your error log — only the questions you got wrong
+                        - generic [ref=e671]: ~0.5h
+                    - listitem [ref=e672]:
+                      - 'checkbox "Verbal recall test — can you explain 5 concepts without notes? stop_reason loop, subagent context inheritance, context: fork, tool_choice=\"any\", validation-retry follow-up structure" [ref=e673] [cursor=pointer]'
+                      - generic [ref=e674]:
+                        - generic [ref=e675]: "Verbal recall test — can you explain 5 concepts without notes? stop_reason loop, subagent context inheritance, context: fork, tool_choice=\"any\", validation-retry follow-up structure"
+                        - generic [ref=e677]: ~0.5h
+                - generic [ref=e679]:
+                  - generic [ref=e680]:
+                    - generic [ref=e681]: Day 13 journal
+                    - generic [ref=e683]: 0 chars
+                  - textbox "What clicked today? What do I want to revisit tomorrow?" [ref=e684]
+              - article [ref=e685]:
+                - generic [ref=e687]:
+                  - generic [ref=e688]: Day 14
+                  - heading "Exam day" [level=3] [ref=e689]
+                - generic [ref=e690]:
+                  - generic [ref=e691]:
+                    - generic [ref=e692]: 0 / 3 done
+                    - generic [ref=e693]: 0h
+                  - list [ref=e695]:
+                    - listitem [ref=e696]:
+                      - 'checkbox "READINESS GATE: 30-question aggregate accuracy ≥ 85%" [ref=e697] [cursor=pointer]'
+                      - generic [ref=e699]: "READINESS GATE: 30-question aggregate accuracy ≥ 85%"
+                    - listitem [ref=e700]:
+                      - 'checkbox "READINESS GATE: Can verbally explain all 5 key concepts without notes" [ref=e701] [cursor=pointer]'
+                      - generic [ref=e703]: "READINESS GATE: Can verbally explain all 5 key concepts without notes"
+                    - listitem [ref=e704]:
+                      - checkbox "Sit for the exam" [ref=e705] [cursor=pointer]
+                      - generic [ref=e707]: Sit for the exam
+                - generic [ref=e709]:
+                  - generic [ref=e710]:
+                    - generic [ref=e711]: Day 14 journal
+                    - generic [ref=e713]: 0 chars
+                  - textbox "What clicked today? What do I want to revisit tomorrow?" [ref=e714]
+          - generic [ref=e715]:
+            - heading "Ready-to-sit gates" [level=2] [ref=e716]
+            - paragraph [ref=e717]: Only book the exam once both of these are true. They protect you from the common “I read everything but still missed the pattern” failure mode.
+            - list [ref=e718]:
+              - listitem [ref=e719]:
+                - generic [ref=e720]: ✓
+                - generic [ref=e721]: 30-question aggregate accuracy ≥ 85% (cold answers — no peeking)
+              - listitem [ref=e722]:
+                - generic [ref=e723]: ✓
+                - generic [ref=e724]: "Can verbally explain, without notes, all 5 concepts: stop_reason loop · subagent context inheritance · context: fork · tool_choice=\"any\" · validation-retry follow-up structure"
+  - alert [ref=e725]

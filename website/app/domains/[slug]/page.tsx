@@ -5,6 +5,7 @@ import { TaskStatement } from "@/components/TaskStatement";
 import { WeightBar } from "@/components/WeightBar";
 import { QuestionCard } from "@/components/QuestionCard";
 import { PrevNext } from "@/components/PrevNext";
+import { DomainSkillTree } from "@/components/DomainSkillTree";
 import { DOMAINS, getDomain } from "@/lib/domains";
 import { getQuestionsForDomain } from "@/lib/questions";
 import type { DomainSlug } from "@/lib/types";
@@ -44,6 +45,9 @@ export default async function DomainPage({
         }
       />
       <div className="space-y-10 px-6 py-8 lg:px-10">
+        {/* Skill tree — hex layout with progress */}
+        <DomainSkillTree domain={domain} />
+
         <section>
           <div className="mb-4 flex items-baseline justify-between">
             <h2 className="text-xl font-semibold text-ink-900">Task statements</h2>
